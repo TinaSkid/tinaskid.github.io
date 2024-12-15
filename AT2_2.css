@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Footlight MT Light';/*Comic Sans MS // Footlight MT Light // Calibri  */
+}
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.skrasli {
+    width: 100%;
+    height: auto;
+    background-color: #F9B8A7;
+}
+header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 28%, rgba(0,0,0,0.46551120448179273) 47%, rgba(0,0,0,0.4543067226890757) 53%, rgba(0,0,0,0) 72%), url(ondra_a_slavka/OaS.jpg);
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    font-size: 5rem;
+    font-family: 'Poor Richard';
+}
+.odpocet {
+    width: 100%;
+    height: 8rem;
+    border-radius: 0 0 5rem 5rem;
+    background-color: #FAD4C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.odpocet p {
+    font-size: 2rem;
+}
+.cara {
+    width: 15rem;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    justify-self: center;
+}
+.tlacidlo {
+    display: none;
+}
+.fotky {
+    border-radius: 5rem;
+    width: 100%;
+    height: auto;
+    background-color: #FAD4C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 50px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in;
+}
+.pisanie {
+    font-size: 3rem;
+    text-align: center;
+}
+.pisanie_male {
+    font-size: 2rem;
+    text-align: center;
+}
+#kontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+#kontainer :nth-child(1){
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+#kontainer img {
+    max-width: 450px;
+    max-height: 450px;
+    padding: 1px;
+    transition: all 0.5s ease-in;
+}
+
+.miestoCas {
+    border-radius: 5rem;
+    width: 100%;
+    height: auto;
+    background-color: #FAD4C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 50px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.ss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#kontainerM_C {
+    height: auto;
+    width: 80%;
+    transition: all 0.5s ease-in;
+}
+#kontainerM_C .mapa iframe{
+    border-radius: 0 0 30px 30px;
+}
+.zoom {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    display: flex;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAD4C0;
+    margin-bottom: 20px;
+}
+#kontainerZOOM {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+#kontainerZOOM p {
+    width: 80%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.ubytovanie {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    display: flex;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAD4C0;
+    margin-bottom: 20px;
+}
+#kontainerUB {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+
+.raut {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    display: flex;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAD4C0;
+    margin-bottom: 20px;
+}
+#kontainerRAUT {
+    height: auto;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+#kontainerRAUT p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.dary {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    display: flex;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAD4C0;
+    margin-bottom: 20px;
+}
+#konatainerDARY {
+    height: auto;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+#kontainerDARY p {
+    font-size: 1.5rem;
+}
+#kontainerDARY :nth-child(1) {
+    background-color: white;
+    text-align: center;
+}
+#kontainerDARY :nth-child(2) {
+    background-color: white;
+    text-align: center;
+}
+
+
+.kontakt {
+    width: 100%;
+    height: auto;
+    border-radius: 5rem;
+    display: flex;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAD4C0;
+}
+#kontainerKON {
+    height: auto;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in;
+}
+#kontainerKON p {
+    font-size: 1.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* mobile */
+@media screen and (max-width: 500px) {
+    .tlacidlo {
+        display: block;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, .3);
+    }
+    .odpocet p {
+        font-size: 1.6rem;
+    }
+    header h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #kontainer {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainer img{
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerM_C {
+        height: 0rem;
+        width: 100%;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerM_C .pisanie_male{
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerM_C .pisanie{
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerM_C .cara{
+        width: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerM_C .mapa iframe {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerZOOM {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerZOOM p {
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerUB {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerUB .pisanie_male {
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerRAUT {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerRAUT p {
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerDARY {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerDARY p {
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerKON {
+        height: 0rem;
+        transition: all 0.5s ease-in;
+    }
+    #kontainerKON p {
+        font-size: 0rem;
+        transition: all 0.5s ease-in;
+    }
+}
