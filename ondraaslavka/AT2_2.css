@@ -38,7 +38,7 @@ header .nazov {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poor Richard';
+    font-family: 'Arial';
 }
 .odpocet {
     width: 100%;
