@@ -27,13 +27,16 @@ header {
     align-items: center;
     background-color: black;
     color: white;
-    background: linear-gradient(0deg, rgba(0,0,0,0) 28%, rgba(0,0,0,0.46551120448179273) 47%, rgba(0,0,0,0.4543067226890757) 53%, rgba(0,0,0,0) 72%), url(ondra_a_slavka/OaS.jpg);
-    background-position: 50% 45%;
+    background-image: url(ondra_a_slavka/OaS.jpg);
+    background-position: 60% 45%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-header h1 {
+header .nazov {
     font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Poor Richard';
 }
 .odpocet {
@@ -267,6 +270,14 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+
+path {
+    fill: transparent;
+  }
+  
+  text {
+    display: none;
+  }
 /* mobile */
 @media screen and (max-width: 500px) {
     .tlacidlo {
@@ -277,11 +288,13 @@ footer {
     .odpocet p {
         font-size: 1.6rem;
     }
-    header h1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    header .nazov {
+        display: none;
+    }
+    text {
+        display: block;
+        font-size: 4.3rem;
+        fill: #ffffff;
     }
     #kontainer {
         height: 0rem;
