@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Footlight MT Light';/*Comic Sans MS // Footlight MT Light // Calibri  */
+    /*font-family: 'Footlight MT Light';/*Comic Sans MS // Footlight MT Light // Calibri  */
+    font-family: 'Arial';
 }
 body {
     width: 100%;
