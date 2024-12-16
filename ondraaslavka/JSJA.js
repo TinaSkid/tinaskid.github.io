@@ -33,13 +33,11 @@ fotkyTL.addEventListener('click', () => {
       fotkyIMG[0].style.height = 'auto';
       fotkyIMG[1].style.height = 'auto';
       fotkyIMG[2].style.height = 'auto';
-      fotkyIMG[3].style.height = 'auto';
     } else {
       fotkyKO.style.height = '0rem';
       fotkyIMG[0].style.height = '0rem';
       fotkyIMG[1].style.height = '0rem';
       fotkyIMG[2].style.height = '0rem';
-      fotkyIMG[3].style.height = '0rem';
       fotkyTL.innerHTML = 'Prezerať fotky';
     }
   });
@@ -47,17 +45,15 @@ fotkyTL.addEventListener('click', () => {
   // miesto cas
   const MC_TL = document.getElementById('Bmescas');
   const MC_KO = document.getElementById('kontainerM_C');
-  const MC_P = document.querySelectorAll('.miestoCas #kontainerM_C .pisanie');
-  const MC_p = document.querySelectorAll('#kontainerM_C .pisanie_male');
+  const MC_p = document.querySelectorAll('#kontainerM_C p');
   const MC_Iframe = document.querySelectorAll('#kontainerM_C .mapa iframe');
   MC_TL.addEventListener('click', () => {
     if(MC_KO.style.height == '0rem') {
-      MC_KO.style.height = 'auto';
-      console.log(MC_Iframe[0]);
+      MC_KO.style.height = '55rem';
       MC_p[0].style.fontSize = '2rem';
       MC_p[1].style.fontSize = '2rem';
-      MC_p[2].style.fontSize = '2rem';
-      MC_P[0].style.fontSize = '3rem';
+      MC_p[2].style.fontSize = '3rem';
+      MC_p[3].style.fontSize = '2rem';
       MC_Iframe[0].style.height = '30rem';
       MC_TL.innerHTML = 'Zavrieť';
     } else {
@@ -65,10 +61,10 @@ fotkyTL.addEventListener('click', () => {
       MC_p[0].style.fontSize = '0rem';
       MC_p[1].style.fontSize = '0rem';
       MC_p[2].style.fontSize = '0rem';
-      MC_P[0].style.fontSize = '0rem';
+      MC_p[3].style.fontSize = '0rem';
       MC_Iframe[0].style.height = '0rem';
       MC_TL.innerHTML = 'Čítať viac';
-    };
+    }
   });
 
   // ZOOM
@@ -77,7 +73,7 @@ fotkyTL.addEventListener('click', () => {
   const zoom_p = document.querySelectorAll('#kontainerZOOM p');
   zoom_TL.addEventListener('click', () => {
     if(zoom_KO.style.height == '0rem') {
-      zoom_KO.style.height = 'auto';
+      zoom_KO.style.height = '2rem';
       zoom_p[0].style.fontSize = '1.5rem';
       zoom_p[1].style.fontSize = '1.5rem';
       zoom_TL.innerHTML = 'Zavrieť';
@@ -95,7 +91,7 @@ fotkyTL.addEventListener('click', () => {
   const UB_p = document.querySelectorAll('#kontainerUB .pisanie_male');
   UB_TL.addEventListener('click', () => {
     if(UB_KO.style.height == '0rem') {
-      UB_KO.style.height = 'auto';
+      UB_KO.style.height = '7rem';
       UB_p[0].style.fontSize = '2rem';
       UB_TL.innerHTML = 'Zavrieť';
     } else {
@@ -111,7 +107,7 @@ fotkyTL.addEventListener('click', () => {
   const raut_p = document.querySelectorAll('#kontainerRAUT p');
   raut_TL.addEventListener('click', () => {
     if(raut_KO.style.height == '0rem') {
-      raut_KO.style.height = 'auto';
+      raut_KO.style.height = '11rem';
       raut_p[0].style.fontSize = '1.5rem';
       raut_p[1].style.fontSize = '1.5rem';
       raut_p[2].style.fontSize = '1.5rem';
@@ -133,7 +129,7 @@ fotkyTL.addEventListener('click', () => {
     const dary_p = document.querySelectorAll('#kontainerDARY p');
     dary_TL.addEventListener('click', () => {
       if(dary_KO.style.height == '0rem') {
-        dary_KO.style.height = 'auto';
+        dary_KO.style.height = '9rem';
         dary_p[0].style.fontSize = '1.5rem';
         dary_p[1].style.fontSize = '1.5rem';
         dary_p[2].style.fontSize = '1.5rem';
@@ -154,7 +150,7 @@ fotkyTL.addEventListener('click', () => {
     const kon_p = document.querySelectorAll('#kontainerKON p');
     kon_TL.addEventListener('click', () => {
       if(kon_KO.style.height == '0rem') {
-        kon_KO.style.height = 'auto';
+        kon_KO.style.height = '3rem';
         kon_p[0].style.fontSize = '1.5rem';
         kon_p[1].style.fontSize = '1.5rem';
         kon_TL.innerHTML = 'Zavrieť';
