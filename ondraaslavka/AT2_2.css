@@ -277,6 +277,7 @@ footer {
 }
 footer p,a {
     color: white;
+    font-family: 'Arial';
 }
 .symbol {
     max-width: 2rem;
