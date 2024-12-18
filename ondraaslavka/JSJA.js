@@ -52,8 +52,9 @@ fotkyTL.addEventListener('click', () => {
       MC_KO.style.height = '55rem';
       MC_p[0].style.fontSize = '2rem';
       MC_p[1].style.fontSize = '2rem';
-      MC_p[2].style.fontSize = '3rem';
-      MC_p[3].style.fontSize = '2rem';
+      MC_p[2].style.fontSize = '2rem';
+      MC_p[3].style.fontSize = '3rem';
+      MC_p[4].style.fontSize = '2rem';
       MC_Iframe[0].style.height = '30rem';
       MC_TL.innerHTML = 'Zavrieť';
     } else {
@@ -62,6 +63,7 @@ fotkyTL.addEventListener('click', () => {
       MC_p[1].style.fontSize = '0rem';
       MC_p[2].style.fontSize = '0rem';
       MC_p[3].style.fontSize = '0rem';
+      MC_p[4].style.fontSize = '0rem';
       MC_Iframe[0].style.height = '0rem';
       MC_TL.innerHTML = 'Čítať viac';
     }
