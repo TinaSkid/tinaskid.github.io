@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #333333;
-    font-family: 'Comic Sans MS';/*Comic Sans MS // Footlight MT Light // Calibri  */
+    font-family: 'Patrick Hand';/*Comic Sans MS // Footlight MT Light // Calibri  */
 }
 body {
     width: 100%;
@@ -39,7 +39,7 @@ header .nazov {
     color: white;
     align-items: center;
     justify-content: center;
-    font-family: 'Blackadder ITC';
+    font-family: 'Arial';
 }
 .odpocet {
     width: 100%;
@@ -309,7 +309,7 @@ path {
         fill: #ffffff;
     }
     text textPath {
-        font-family: 'Edwardian Script ITC';
+        font-family: 'Brush Script MT', 'Lucida Handwriting', 'Cursive', 'Sans-serif';
     }
     #kontainer {
         height: 0rem;
