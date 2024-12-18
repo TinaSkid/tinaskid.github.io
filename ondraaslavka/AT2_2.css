@@ -165,7 +165,7 @@ header .nazov {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: white;
+   /* background-color: white;*/
 }
 
 .ubytovanie {
@@ -232,11 +232,11 @@ header .nazov {
     font-size: 1.5rem;
 }
 #kontainerDARY :nth-child(1) {
-    background-color: white;
+   /* background-color: white;*/
     text-align: center;
 }
 #kontainerDARY :nth-child(2) {
-    background-color: white;
+   /* background-color: white;*/
     text-align: center;
 }
 
@@ -259,7 +259,7 @@ header .nazov {
 }
 #kontainerKON p {
     font-size: 1.5rem;
-    background-color: white;
+   /* background-color: white;*/
     display: flex;
     align-items: center;
     justify-content: center;
