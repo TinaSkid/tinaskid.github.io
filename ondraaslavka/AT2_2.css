@@ -79,10 +79,12 @@ header .nazov {
 }
 .pisanie {
     font-size: 3rem;
+    color: #000000;
     text-align: center;
 }
 .pisanie_male {
     font-size: 2rem;
+    color: #000000;
     text-align: center;
 }
 #kontainer {
