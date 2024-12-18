@@ -37,9 +37,11 @@ header .nazov {
     font-size: 5rem;
     display: flex;
     color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Arial';
+    text-align: center;
+    font-family: 'Allura';
 }
 .odpocet {
     width: 100%;
@@ -283,7 +285,10 @@ footer p,a {
 path {
     fill: transparent;
   }
-  
+  svg {
+    fill: transparent;
+    display: none;
+  }
   text {
     display: none;
   }
@@ -301,6 +306,9 @@ path {
     }
     .odpocet p {
         font-size: 1.6rem;
+    }
+    svg {
+        display: block;
     }
     header .nazov {
         display: none;
