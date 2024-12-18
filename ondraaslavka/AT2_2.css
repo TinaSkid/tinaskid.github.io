@@ -76,7 +76,6 @@ header .nazov {
     justify-content: center;
     flex-direction: column;
     padding-block: 50px;
-    margin-bottom: 20px;
     transition: all 0.5s ease-in;
 }
 .pisanie {
@@ -250,6 +249,7 @@ header .nazov {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 20px;
     background-color: #FAD4C0;
 }
 #kontainerKON {
