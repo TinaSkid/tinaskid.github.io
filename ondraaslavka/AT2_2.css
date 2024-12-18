@@ -309,7 +309,7 @@ path {
         fill: #ffffff;
     }
     text textPath {
-        font-family: 'Allura';
+        font-family: 'Allura', 'Cursive';
     }
     #kontainer {
         height: 0rem;
