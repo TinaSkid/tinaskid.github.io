@@ -1,4 +1,4 @@
-const targetDate = new Date("2025-03-14T14:00");
+const targetDate = new Date("2025-03-22T14:00");
 const timerElement = document.getElementById("cas");
 function updateCountdown() {
   const now = new Date();
